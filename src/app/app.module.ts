@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { ClarityModule } from 'clarity-angular';
+import { UiModule } from './ui/ui.module';
 
 import { AppComponent } from './app.component';
 
@@ -14,7 +15,8 @@ import { AppComponent } from './app.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    ClarityModule.forRoot()
+    ClarityModule.forRoot(),
+    UiModule
   ],
   providers: [],
   bootstrap: [AppComponent]
